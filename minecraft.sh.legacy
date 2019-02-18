@@ -1,0 +1,3 @@
+#!/bin/sh
+sudo add-apt-repository ppa:flexiondotorg/minecraft
+sudo apt install minecraft-installer
