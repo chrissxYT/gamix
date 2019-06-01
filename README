@@ -1,1 +1,0 @@
-curl -L -o - https://github.com/chrissxYT/gamix/raw/master/installer.sh | sh
