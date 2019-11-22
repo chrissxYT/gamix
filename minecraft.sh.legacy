@@ -1,3 +1,3 @@
 #!/bin/sh
-sudo add-apt-repository ppa:flexiondotorg/minecraft
+[ "$1" -ne "ns" ] && sudo add-apt-repository ppa:flexiondotorg/minecraft
 sudo apt install minecraft-installer
