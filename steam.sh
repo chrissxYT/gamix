@@ -1,2 +1,2 @@
 #!/bin/sh
-sudo apt install steam
+sudo apt install $APT_FLAGS steam

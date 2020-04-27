@@ -1,4 +1,4 @@
 #!/bin/sh
-sudo apt -y install liblwjgl-java
+sudo apt install $APT_FLAGS liblwjgl-java
 udpkg https://launcher.mojang.com/download/Minecraft.deb
-sudo apt -f -y install
+sudo apt -f install $APT_FLAGS
