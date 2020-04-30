@@ -7,5 +7,6 @@ while [ $# -gt 0 ] ; do
 done
 [ "$Y" = 1 ] && APT_FLAGS="-y" || APT_FLAGS=""
 APT_FLAGS=$APT_FLAGS NS=$NS ./steam.sh "$@"
+APT_FLAGS=$APT_FLAGS NS=$NS ./doom.sh "$@"
 APT_FLAGS=$APT_FLAGS NS=$NS ./minecraft.sh "$@"
 APT_FLAGS=$APT_FLAGS NS=$NS ./lutris.sh "$@"
